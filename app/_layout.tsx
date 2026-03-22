@@ -59,7 +59,7 @@ function RootLayoutNav() {
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
           <Stack.Screen name="(auth)" options={{ headerShown: false }} />
           <Stack.Screen name="new-job" options={{ headerShown: false }} />
-          <Stack.Screen name="job/[id]" options={{ title: 'Job Detail' }} />
+          <Stack.Screen name="job" options={{ headerShown: false }} />
         </Stack>
       </ThemeProvider>
     </AuthContext.Provider>

@@ -40,6 +40,7 @@ export type ExteriorPhotos = {
   driverFrontQuarter?: string;
   passengerFrontQuarter?: string;
   driverRearQuarter?: string;
+  passengerRearQuarter?: string;
 };
 
 export type JobStatus = 'in_progress' | 'complete';
